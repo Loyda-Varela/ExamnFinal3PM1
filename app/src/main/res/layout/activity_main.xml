@@ -1,0 +1,93 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".MainActivity"
+    android:paddingTop="40dp"
+    android:paddingRight="20dp"
+    android:paddingLeft="20dp"
+    android:paddingBottom="10dp"
+    android:orientation="vertical">
+
+    <TextView
+        android:id="@+id/ll"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="Registrar Medicamento"
+        android:textAlignment="center"
+        android:layout_marginTop="50dp"
+        android:textSize="30dp"/>
+
+    <ImageView
+        android:id="@+id/img_foto"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="20dp" />
+
+    <Button
+        android:id="@+id/btnfoto"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="10dp"
+        android:text="Tomar Foto"
+        android:textColor="#FFFFFF" />
+
+
+
+    <EditText
+        android:id="@+id/txtnombre"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="10dp"
+        android:hint="Nombre" />
+
+    <EditText
+        android:id="@+id/txtdescripcion"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="10dp"
+        android:hint="Descripcion" />
+
+    <EditText
+        android:id="@+id/txtCantidad"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="10dp"
+        android:hint="Cantidad" />
+    <EditText
+        android:id="@+id/txttiempo"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="10dp"
+        android:inputType="number"
+        android:hint="Tiempo" />
+
+    <EditText
+        android:id="@+id/txtPeriocidad"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="10dp"
+        android:hint="Periocidad" />
+
+
+
+    <Button
+        android:id="@+id/btnguardar"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="1dp"
+        android:text="guardar"
+        android:textColor="#FFFFFF" />
+
+    <Button
+        android:id="@+id/btnlista"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="1dp"
+        android:text="Lista Usuario"
+        android:textColor="#FFFFFF" />
+
+
+</LinearLayout>

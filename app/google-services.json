@@ -1,0 +1,40 @@
+{
+  "project_info": {
+    "project_number": "1015348701751",
+    "firebase_url": "https://examnfinal3pm1-default-rtdb.firebaseio.com",
+    "project_id": "examnfinal3pm1",
+    "storage_bucket": "examnfinal3pm1.appspot.com"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:1015348701751:android:859731572c0d4e3fe82db2",
+        "android_client_info": {
+          "package_name": "com.example.examnfinal3pm1"
+        }
+      },
+      "oauth_client": [
+        {
+          "client_id": "1015348701751-nstehaqdh5aff6mcqn2n2a9g67ggq61g.apps.googleusercontent.com",
+          "client_type": 3
+        }
+      ],
+      "api_key": [
+        {
+          "current_key": "AIzaSyDkqWbhjHrw1Qa7xbwqF3i6n4yaBXpb8R4"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": [
+            {
+              "client_id": "1015348701751-nstehaqdh5aff6mcqn2n2a9g67ggq61g.apps.googleusercontent.com",
+              "client_type": 3
+            }
+          ]
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}
